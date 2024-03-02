@@ -1,0 +1,90 @@
+/* Adjusted CSS for accordion */
+.accordion {
+	margin: 60px auto;
+}
+.accordion ul {
+	list-style: none;
+	padding: 0;
+}
+
+.accordion li {
+	border-bottom: 1px solid black;
+	list-style: none;
+}
+.accordion li label {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+}
+.accordion li label::before {
+	content: '+';
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 24px;
+}
+input[type='checkbox'] {
+	display: none;
+}
+input[type='checkbox'] {
+	display: none;
+}
+input[type='checkbox']:checked ~ .content {
+	max-height: 0;
+	padding: 0 10px;
+	overflow: hidden;
+}
+input[type='checkbox']:checked ~ label::before {
+	content: '-';
+}
+input[type='checkbox']:checked ~ label {
+	border-bottom: 1px solid black;
+}
+
+/* Adjusted CSS for accordion */
+
+/* .accordion {
+	margin: 60px auto;
+}
+
+.accordion ul {
+	list-style: none;
+	padding: 0;
+}
+
+.accordion li {
+	border-bottom: 1px solid black;
+	list-style: none;
+}
+
+.accordion li label {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+	cursor: pointer;
+}
+
+.accordion li label::before {
+	content: '+';
+	margin-right: 10px;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+input[type='checkbox'] {
+	display: none;
+}
+
+input[type='checkbox']:checked ~ .content {
+	max-height: 0;
+	padding: 0 10px;
+	overflow: hidden;
+}
+
+input[type='checkbox']:checked ~ label::before {
+	content: '-';
+}
+
+input[type='checkbox']:checked ~ label {
+	border-bottom: 1px solid black;
+} */
